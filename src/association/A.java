@@ -12,6 +12,10 @@ public class A {
 		this.bRef =         _bRef;
 	}
 	
+	public A() {
+		
+	}
+	
 	public void print()
 	{
 		//
@@ -19,6 +23,10 @@ public class A {
 		//sử dụng biến bRef để gửi thông điệp
 		//đến hành vi printName() của object class B
 		bRef.printName();
+	}
+	
+	public void setBRef(B _bRef) {
+		this.bRef = _bRef;
 	}
 	
 

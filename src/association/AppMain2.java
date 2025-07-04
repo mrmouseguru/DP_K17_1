@@ -16,8 +16,10 @@ public class AppMain2 {
 		//******TẠO object class A
 		A aRef;//bước 1
 		//bước 2
-		aRef = new A(bRef);
+		//aRef = new A(bRef);
+		aRef = new A();
 		//send message
+		aRef.setBRef(bRef);
 		aRef.print();
 		
 
